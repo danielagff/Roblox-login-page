@@ -1,0 +1,732 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+button {
+  cursor: pointer;
+}
+
+.body-cellphone{
+  display: none;
+}
+.main-body {
+
+  width: 100%;
+  height: 100%;
+  background-color: #232527;
+
+}
+
+.nav-bar {
+  width: 100%;
+  height: 41px;
+  background-color: #191B1D;
+  display: flex;
+  align-items: center;
+
+}
+
+#roblox-logo {
+  width: 118px;
+  height: 30px;
+
+}
+
+span {
+  color: white;
+  margin: 20px;
+}
+
+span p {
+  font-size: 16px;
+  /* Tamanho da fonte */
+  font-family: HCo Gotham SSm, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  /* Cor da fonte (branca) */
+  margin: 10px 0;
+  /* Margem superior e inferior */
+  line-height: 1.5;
+  /* Espaçamento entre linhas */
+  font-weight: 600;
+
+}
+
+
+.nav-bar-p1 {
+  width: 72%;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar-p1 a {
+  color: #FFFFFF;
+}
+
+.nav-bar-p1 span {
+  margin: 30px;
+}
+
+.nav-bar-p2 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar-p2 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.cadastro-button {
+  width: 127px;
+  height: 30px;
+  margin: 20px;
+  border-radius: 8px;
+  background-color: #00b06f;
+  border-style: none;
+
+}
+
+.cadastro-button P {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.section-1 {
+  background-color: #232527;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 780px;
+}
+
+.login {
+  margin: 65px;
+  width: 400px;
+  height: 474px;
+  background-color: #393b3d;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login .tittle-space {
+  height: 54px;
+  width: 370px;
+  display: flex;
+  align-items: end;
+  margin-top: 2px;
+  justify-content: center;
+}
+
+
+.login .tittle-space p {
+  font-size: 32px;
+  font-weight: 900;
+
+  color: #FFFFFF;
+}
+
+.input-place {
+  width: 370px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+}
+
+.input-place input {
+  width: 360px;
+  height: 20px;
+  background-color: #111112;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  padding: 8px;
+}
+
+.input-place input::placeholder {
+  font-size: 17px;
+
+}
+
+.login-button {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.login-button button {
+  width: 370px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+  align-items: center;
+  background-color: #393B3D;
+  border: none;
+  outline: 1px solid #c4c4c5;
+  font-size: 19px;
+  color: #c4c4c5;
+  cursor: pointer;
+}
+
+.forgot-password {
+  margin-top: 15px;
+  width: 90%;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.forgot-password p {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+
+.section-buttons {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.section-buttons button {
+  margin-top: 5px;
+  width: 370px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+  align-items: center;
+  background-color: #393B3D;
+  border: none;
+  outline: 1px solid #c4c4c5;
+  font-size: 19px;
+  color: #c4c4c5;
+  cursor: pointer;
+}
+
+.create-account {
+  width: 90%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-account p {
+  font-size: 18px;
+  color: #FFFFFF;
+  margin: 2px;
+}
+
+.create-account p a {
+  font-size: 18px;
+  color: #FFFFFF;
+  margin: 2px;
+  text-decoration: none;
+}
+
+.create-account p a:hover {
+  font-size: 18px;
+  color: #FFFFFF;
+  margin: 2px;
+}
+
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #191B1D;
+  border-radius: 5px;
+  border: 1px solid #3b3b3c;
+  width: 42%;
+  height: 25px;
+  color: white;
+}
+
+.search-container input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 3px;
+  background-image: url('D:\Projetos\clones\roblox\roblox-clone\public\search-icon.png');
+  /* Altere o caminho da imagem conforme necessário */
+  background-repeat: no-repeat;
+  background-position: left center;
+  /* Posição da imagem, você pode ajustar conforme necessário */
+  padding-left: 30px;
+  /* Ajuste o espaço à esquerda para acomodar a imagem */
+  background-size: 28px;
+  /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+.search-container::before {
+  /* Código unicode para um ícone de pesquisa. Você pode substituir por um ícone de sua escolha. */
+  margin: 0 5px;
+  /* Espaço entre o ícone e o campo de entrada. */
+  font-size: 18px;
+  /* Tamanho do ícone */
+}
+
+.search-container input::placeholder {
+
+  font-size: 17px;
+}
+
+.footer {
+  width: 100%;
+  height: 142px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.space-1 {
+  width: 60%;
+  height: 50px;
+  display: flex;
+  background-color: #232527;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space-1 span p {
+  font-size: 16px;
+  color: #bdbebe;
+}
+
+.space-1 span a {
+  color: #bdbebe;
+}
+
+.space-2 {
+  width: 60%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+.line {
+  margin-top: 20px;
+  background-color: #656668;
+  width: 100%;
+  height: 1px;
+}
+
+.reservation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.reservation p {
+  font-size: 15px;
+  padding-top: 10px;
+  color: #AEBEBE;
+}
+
+@media (max-width: 1315px) {
+  .main-body {
+    display: none;
+  }
+
+  .body-cellphone {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .tittle-cellphone {
+    width: 100%;
+    height: 84px;
+    background-color: #191B1D;
+
+  }
+
+  .tittle-p1-c {
+    width: 100%;
+    height: 46px;
+    display: flex;
+
+  }
+
+  .tittle-p1-c img {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+
+  }
+
+  .tittle-p2-c {
+    width: 100%;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .tittle-p2-c p {
+    font-size: 13px;
+  }
+
+  .logo-spapce-cell {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+
+  }
+
+  .logo-spapce-cell span {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTExLjY3NiAwTDAgNDQuMTY2IDQzLjU3NyA1NmwxMS42NzYtNDQuMTY2TDExLjY3NiAwem0yMC40MDkgMzUuODI3bC0xMi4xNzctMy4zMDggMy4yNjQtMTIuMzQyIDEyLjE4MiAzLjMwOC0zLjI3IDEyLjM0MnoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 30px 30px;
+
+  }
+
+  .button-space-c {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .button-space-c button {
+    height: 30px;
+  }
+
+  .button-space-c button p {
+    font-size: 14px;
+  }
+
+
+  .login-space-c {
+    display: flex;
+    justify-content: center;
+  }
+
+  .login {
+    margin: 65px;
+    width: 433px;
+    height: 474px;
+    background-color: #393b3d;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .line {
+    margin-top: 20px;
+    background-color: #656668;
+    width: 90%;
+    height: 1px;
+  }
+  .footer-c {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-c {
+    margin-top: 5px;
+    width: 89%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .about-c p {
+    font-size: 16px;
+    color: #AEBEBE;
+  }
+
+  .about-c span {
+    margin: 3px;
+  }
+
+
+  .about-c a {
+    color: #bdbebe;
+  }
+  
+  .line-space-c {
+    margin-top: 40px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .line-space-c .line-c{
+    margin-top: 10px;
+    background-color: #656668;
+    width: 90%;
+    height: 1px;
+}
+
+
+.text-dir
+{
+  width: 88%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.text-dir p{
+  margin-top: 20px;
+  font-size: 8px;
+  color: #AEBEBE;
+}
+
+
+
+}
+
+@media (max-width: 565px) {
+  .login {
+    margin: 0;
+    margin-top: 50px;
+    width: 380px;
+    height: 474px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .login .tittle-space {
+    height: 54px;
+    width: 310px;
+    display: flex;
+    align-items: end;
+    margin-top: 2px;
+    justify-content: center;
+  }
+
+
+  .login .tittle-space p {
+    font-size: 32px;
+    font-weight: 900;
+    color: #FFFFFF;
+  }
+
+  .input-place {
+    width: 100%;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+  }
+
+  .input-place input {
+    width: 85%;
+    height: 22px;
+    background-color: #111112;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 8px;
+  }
+
+  .input-place input::placeholder {
+    font-size: 17px;
+
+  }
+
+  .login-button {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .login-button button {
+    width: 88%;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    align-items: center;
+    background-color: #393B3D;
+    border: none;
+    outline: 1px solid #c4c4c5;
+    font-size: 16px;
+    color: #c4c4c5;
+    cursor: pointer;
+  }
+
+  .forgot-password {
+    margin-top: 15px;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+
+  .forgot-password p {
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+
+  .section-buttons {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .section-buttons button {
+    margin-top: 5px;
+    width: 90%;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    align-items: center;
+    background-color: #393B3D;
+    border: none;
+    outline: 1px solid #c4c4c5;
+    font-size: 16px;
+    color: #c4c4c5;
+    cursor: pointer;
+  }
+
+  .create-account {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .create-account p {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 2px;
+  }
+
+  .create-account p a {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 2px;
+    text-decoration: none;
+  }
+
+  .footer-c {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-c {
+    margin-top: 5px;
+    width: 89%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .about-c p {
+    font-size: 13px;
+    color: #AEBEBE;
+  }
+
+  .about-c span {
+    margin: 3px;
+  }
+
+  .line-space-c {
+    margin-top: 40px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .line-space-c .line-c{
+    margin-top: 10px;
+    background-color: #656668;
+    width: 90%;
+    height: 1px;
+}
+
+
+.text-dir
+{
+  width: 88%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.text-dir p{
+  margin-top: 20px;
+  font-size: 8px;
+  color: #AEBEBE;
+}
+
+
+
+}
